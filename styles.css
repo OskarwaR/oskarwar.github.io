@@ -115,7 +115,7 @@ h5 {
     position: relative;
     text-align: center;
     background-position: center;
-    border: 10px solid #000 !important;
+    border: 10px solid #000;
     transition: all 0.5s;
     display: inline-block;
     margin: 0 2% 50px;
