@@ -7,6 +7,7 @@ html, body {
   padding: 0px;
   margin: 0px;
   background-color: #1a1a1a;
+  scrollbar-color: #a5a0df #1f223f;
 }
 
 #intro {
@@ -60,7 +61,7 @@ h1 {
 }
 
 h5 {
-  color: #cc004d;
+  color: #6969cc;
   font-family: "Press Start 2P", sans-serif;
   font-size: 22px;
   margin: 0;
@@ -74,7 +75,7 @@ h5 {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 0;
-  color: #dfa0b8;
+  color: #a5a0df;
   text-shadow: 0 0 7px rgb(0, 0, 0); 
   margin: 0px;
 }
@@ -141,7 +142,7 @@ h5 {
 }
 
 a{
-    color:#cc004d;
+    color:#6969cc;
     text-decoration: none;
 }
 
@@ -160,4 +161,19 @@ a{
 .contacto h5
 {
     font-size: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ff0000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff0000; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0000; 
 }
