@@ -7,7 +7,7 @@ html, body {
   padding: 0px;
   margin: 0px;
   background-color: #1a1a1a;
-  scrollbar-color: #a5a0df #1f223f;
+  scrollbar-color: #65979f #1f223f;
 }
 
 #intro {
@@ -57,7 +57,7 @@ h1 {
   margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 0 0 7px rgb(0, 0, 0);  
+  text-shadow: 0 0 40px rgb(0, 112, 255);
 }
 
 h5 {
@@ -75,7 +75,7 @@ h5 {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 0;
-  color: #a5a0df;
+  color: #88c4d2;
   text-shadow: 0 0 7px rgb(0, 0, 0); 
   margin: 0px;
 }
@@ -122,6 +122,8 @@ h5 {
     margin: 0 2% 50px;
     cursor:pointer;
     font-family: "Press Start 2P", sans-serif;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
 }
 
 .game:hover
