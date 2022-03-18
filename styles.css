@@ -57,7 +57,7 @@ h1 {
   margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 0 0 40px rgb(0, 112, 255);
+  text-shadow: 0 0 40px rgb(0, 112, 255) !important;
 }
 
 h5 {
@@ -178,4 +178,8 @@ a{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ff0000; 
+}
+
+.game {
+  border-color: rgb(0, 0, 0) !important;
 }
