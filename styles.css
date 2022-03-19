@@ -80,50 +80,52 @@ h5 {
   margin: 0px;
 }
 
-.dev
-{
-    position: relative;
-    top: 4px;
-}
-
 .proyects {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  background:black;
 }
 
-.proyects h5{
-    margin: 140px 0 75px 0;
-    text-align: center;
-    font-size: 30px;
+.proyects h5 {
+  padding: 60px 0;
+  text-align: center;
+  font-size: 30px;
+  background-color: #16162a;
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .proyects h1 {
   margin: 10px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   width: 100%;
   background: #000000b5;
-  padding: 10px 0;
+  padding: 25px 0;
 }
 
-.game
-{
-    width: 400px;
-    height: 400px;
-    background-size: 105%;
-    display: table;
-    position: relative;
-    text-align: center;
-    background-position: center;
-    border: 10px solid #000;
-    transition: all 0.5s;
-    display: inline-block;
-    margin: 0 2% 50px;
-    cursor:pointer;
-    font-family: "Press Start 2P", sans-serif;
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
+.game {
+  width: 33%;
+  height: 500px;
+  background-size: 105%;
+  position: relative;
+  text-align: center;
+  background-position: center;
+  border: 0;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+  transition: all 0.5s;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+  font-family: "Press Start 2P", sans-serif;
+  padding: 0px;
 }
 
 .game:hover
@@ -132,39 +134,46 @@ h5 {
     transition: all 1s;
 }
 
-.descripcion
-{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    background-color: #000000e0;
-    padding: 10px 0px 6px;
-    font-size: 12px;
-    letter-spacing: -1px;
+.descripcion {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #000000e0;
+  padding: 14px 0px;
+  font-size: 13px;
+  letter-spacing: -1px;
+  text-shadow: 0 0 10px #8b00ff;
 }
 
-a{
-    color:#6969cc;
+a,a:visited{
+    color: #8597ce;
     text-decoration: none;
 }
 
 .footer {
   width: 100%;
   background: black;
-  margin-top: 75px;
 }
 
-.contacto
-{
-    text-align: center;
-    padding: 30px;
+.contacto {
+  text-align: center;
+  padding: 40px 0;
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-position: center 40%;
 }
 
 .contacto h5
 {
-    font-size: 12px;
+    font-size: 16px;
+    text-shadow: 0 0 40px #5000ff;
 }
 
 .game {
   border-color: rgb(0, 0, 0) !important;
+}
+
+i{
+    position: relative !important;
+    top: -6px !important;
 }
