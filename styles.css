@@ -85,9 +85,14 @@ h5 {
   margin: 0 auto;
   text-align: center;
   background:black;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
-.proyects h5 {
+.titulo h5 {
   padding: 60px 0;
   text-align: center;
   font-size: 30px;
@@ -109,7 +114,7 @@ h5 {
 }
 
 .game {
-  width: 33%;
+  width: 100%;
   height: 500px;
   background-size: 105%;
   position: relative;
